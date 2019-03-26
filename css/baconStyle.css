@@ -1,0 +1,42 @@
+/* ID SELECTORS - Note: a unique ID can only be used once per page. So in this example 'centerPink' can only be
+used once. You also can't create two IDs and use both of them to apply to the same element. IDs are normally used
+if there is only one kind of element that hte properties need to be attached to. In this case the body element */
+#centerPink{
+  text-align: center;
+  background-color: pink;
+}
+
+/* CLASS SELECTORS */
+.space{
+  margin: 25px 50px;
+}
+
+.specialBox{
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #df4d19, #ddd 80%, #cd4545);
+  display: inline-block;
+  color: black;
+}
+
+.threeHorzDiv{
+  display: inline-block;
+}
+
+/* TAG SELECTORS */
+h1{
+  color: red;
+  font-size: 200px;
+}
+
+img{
+  border-radius: 50%;
+  border-spacing: 50px;
+  background-color: red;
+}
+
+iframe{
+  border: 5px solid #c7004c;
+}
